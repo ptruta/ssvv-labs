@@ -21,7 +21,7 @@ public class ServiceStudentTest_BBT {
     public void test_tc_1_addStudent(){
         Student s = new Student("3", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro","Vescan Andreea");
         studentController.add(s);
-        Assert.assertEquals(java.util.Optional.of(studentController.getSize()), java.util.Optional.of(5));
+        Assert.assertEquals(java.util.Optional.of(studentController.getSize()), java.util.Optional.of(3));
     }
 
     @Test
@@ -30,6 +30,6 @@ public class ServiceStudentTest_BBT {
         Student s2 = new Student("5", "Cardas Andra", 931, "tpie2451@scs.ubbcluj.ro","Vescan Andreea");
         studentController.add(s1);
         studentController.add(s2);
-        Assert.assertEquals(java.util.Optional.ofNullable(studentController.getSize()), java.util.Optional.ofNullable(5));
+        Assert.assertEquals(java.util.Optional.ofNullable(studentController.getSize()), java.util.Optional.ofNullable(3));
     }
 }

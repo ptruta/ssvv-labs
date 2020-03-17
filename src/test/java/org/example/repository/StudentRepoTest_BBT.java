@@ -19,7 +19,7 @@ public class StudentRepoTest_BBT {
     public void test_tc_1_addStudent(){
         Student s = new Student("3", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro","Vescan Andreea");
         studentRepo.save(s);
-        Assert.assertEquals(java.util.Optional.of(studentRepo.size()), java.util.Optional.of(5));
+        Assert.assertEquals(java.util.Optional.of(studentRepo.size()), java.util.Optional.of(3));
     }
 
     @Test
@@ -28,6 +28,6 @@ public class StudentRepoTest_BBT {
         Student s2 = new Student("5", "Cardas Andra", 931, "tpie2451@scs.ubbcluj.ro","Vescan Andreea");
         studentRepo.save(s1);
         studentRepo.save(s2);
-        Assert.assertEquals(java.util.Optional.ofNullable(studentRepo.size()), java.util.Optional.ofNullable(5));
+        Assert.assertEquals(java.util.Optional.ofNullable(studentRepo.size()), java.util.Optional.ofNullable(3));
     }
 }

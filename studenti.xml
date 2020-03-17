@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<inbox>
+    <Student idStudent="3">
+        <nume>Truta Patricia-Georgiana</nume>
+        <grupa>931</grupa>
+        <mail>tpie2451@scs.ubbcluj.ro</mail>
+        <profesor>Vescan Andreea</profesor>
+    </Student>
+    <Student idStudent="4">
+        <nume>Cardas Andra</nume>
+        <grupa>931</grupa>
+        <mail>tpie2451@scs.ubbcluj.ro</mail>
+        <profesor>Vescan Andreea</profesor>
+    </Student>
+    <Student idStudent="5">
+        <nume>Cardas Andra</nume>
+        <grupa>931</grupa>
+        <mail>tpie2451@scs.ubbcluj.ro</mail>
+        <profesor>Vescan Andreea</profesor>
+    </Student>
+</inbox>
