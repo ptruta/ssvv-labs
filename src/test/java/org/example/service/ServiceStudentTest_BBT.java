@@ -3,9 +3,13 @@ package org.example.service;
 import org.example.domain.Student;
 import org.example.repository.StudentRepo;
 import org.example.validator.StudentValidator;
+import org.example.validator.ValidationException;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 
 public class ServiceStudentTest_BBT {
 
@@ -26,10 +30,11 @@ public class ServiceStudentTest_BBT {
 
     @Test
     public void test_tc_2_addStudent() {
-        Student s1 = new Student("4", "Cardas Andra", 931, "tpie2451@scs.ubbcluj.ro","Vescan Andreea");
-        Student s2 = new Student("5", "Cardas Andra", 931, "tpie2451@scs.ubbcluj.ro","Vescan Andreea");
-        studentController.add(s1);
-        studentController.add(s2);
-        Assert.assertEquals(java.util.Optional.ofNullable(studentController.getSize()), java.util.Optional.ofNullable(3));
+        Student s1 = new Student("1", "Cardas Andra", -111, "tpie2451@scs.ubbcluj.ro","Vescan Andreea");
+        try {
+            studentController.add(s1);
+        } catch (ValidationException validationException) {
+            assertThat(validationException.getMessage(), is("\nGrupa invalida"));
+        }
     }
 }
