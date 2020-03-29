@@ -7,9 +7,6 @@ import org.example.validator.ValidationException;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import static org.mockito.Mockito.when;
 
 
 import static org.hamcrest.CoreMatchers.is;
@@ -17,7 +14,6 @@ import static org.junit.Assert.assertThat;
 
 public class ServiceStudentTest_BBT {
 
-    @InjectMocks
     private ServiceStudent studentController;
 
     @Before

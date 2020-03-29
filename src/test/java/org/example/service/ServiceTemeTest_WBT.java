@@ -9,18 +9,14 @@ import org.example.validator.TemeValidator;
 import org.example.validator.ValidationException;
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 public class ServiceTemeTest_WBT {
 
-    @InjectMocks
     private ServiceTeme serviceTeme;
 
-    @Mock
     private TemeRepo temeRepo;
 
     @Before
