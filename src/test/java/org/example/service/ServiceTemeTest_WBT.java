@@ -7,6 +7,7 @@ import org.example.repository.TemeRepo;
 import org.example.validator.StudentValidator;
 import org.example.validator.TemeValidator;
 import org.example.validator.ValidationException;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -44,4 +45,38 @@ public class ServiceTemeTest_WBT {
             assertThat(validationException.getMessage(), is("\nID invalid\nDeadline invalid\nSaptamana in care tema a fost primita este invalida"));
         }
     }
+
+    // Tests for add Assignment
+
+    @Test
+    public void addValidAssignmentCheckReturnValueTest() {
+        serviceTeme.add(new Teme(2, "tema 4", 3, 4));
+        Assert.assertEquals(java.util.Optional.of(serviceTeme.getSize()), java.util.Optional.of(2));
+    }
+
+    @Test(expected = ValidationException.class)
+    public void addAssignmentWithNullIDTest() {
+        serviceTeme.add(new Teme(null, "tema 5", 7, 8));
+    }
+
+    @Test(expected = ValidationException.class)
+    public void addAssignmentWithDeadlineLessThanStarting() {
+        serviceTeme.add(new Teme(2, "", 6, 5));
+    }
+
+    @Test(expected = ValidationException.class)
+    public void addAssignmentWithLessThan1DeadlineTest() {
+        serviceTeme.add(new Teme(2, "tema c", 0, 1));
+    }
+
+    @Test(expected = ValidationException.class)
+    public void addAssignmentWithLessThan1StartlineTest() {
+        serviceTeme.add(new Teme(2, "tema l", 1, 0));
+    }
+
+    @Test
+    public void addAssignmentWithExistingIDTest() {
+        serviceTeme.add(new Teme(1, "Bill", 3, 4));
+    }
+
 }

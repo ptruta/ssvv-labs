@@ -5,7 +5,7 @@ public class Teme implements hasID<Integer> {
     private String descriere;
     private Integer deadline;
     private Integer sapt_primire;
-    public Teme(Integer nr, String descriere, Integer sapt_primire,Integer deadline){
+    public Teme(Integer nr, String descriere, Integer sapt_primire, Integer deadline){
         this.deadline=deadline;
         this.descriere=descriere;
         this.nr=nr;

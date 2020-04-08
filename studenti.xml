@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <inbox>
+    <Student idStudent="11">
+        <nume>null</nume>
+        <grupa>931</grupa>
+        <mail>tpie2451@scs.ubbcluj.ro</mail>
+        <profesor>Vescan Andreea</profesor>
+    </Student>
     <Student idStudent="1">
         <nume>Cardas Andra</nume>
         <grupa>931</grupa>

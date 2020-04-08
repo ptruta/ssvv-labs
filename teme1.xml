@@ -5,4 +5,9 @@
         <deadline>11</deadline>
         <sapt_primire>10</sapt_primire>
     </Tema>
+    <Tema nr="2">
+        <descriere/>
+        <deadline>6</deadline>
+        <sapt_primire>5</sapt_primire>
+    </Tema>
 </Teme>
