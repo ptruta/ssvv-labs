@@ -24,6 +24,8 @@ public class ServiceStudentTest_BBT {
         studentController = new ServiceStudent(studentRepo);
     }
 
+    //valid test for all
+
     @Test
     public void test_tc_1_addStudent(){
         Student s = new Student("3", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro","Vescan Andreea");
@@ -133,7 +135,7 @@ public class ServiceStudentTest_BBT {
         studentController.add(new Student("11", "Dorel Mustan", 931, "tpie2451@scsubbclujro", "Vescan Andreea"));
     }
 
-    // End tests for edge cases group
+    // End tests for edge cases group good for each cases
 
     //15
     @Test
@@ -158,12 +160,24 @@ public class ServiceStudentTest_BBT {
         studentController.add(new Student("11", "32493458null", 931, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"));
     }
 
-    // Test cases for professor name
-
     //18
     @Test(expected = ValidationException.class)
-    public void addStudentWithEmptyProfNameTest() {
+    public void addStudentWithEmptyNameTest() {
+        studentController.add(new Student("11", "", 931, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"));
+    }
+
+    // Test cases for professor name
+
+    //19
+    @Test(expected = ValidationException.class)
+    public void addStudentWithNotMatchingProfNameTest() {
         studentController.add(new Student("11", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro", "434534fkdsfs"));
+    }
+
+    //20
+    @Test(expected = ValidationException.class)
+    public void addStudentWithEmptyProfNameTest() {
+        studentController.add(new Student("11", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro", ""));
     }
 
 }
