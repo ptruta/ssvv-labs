@@ -1,96 +1,100 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
-    <Nota idNota="11">
-        <nume>Roman Ionut</nume>
+    <Nota idNota="Dada1">
         <nr>1</nr>
-        <valoare>5.0</valoare>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="21">
-        <nume>Gorea Andra</nume>
-        <nr>1</nr>
-        <valoare>5.0</valoare>
+        <valoare>10.0</valoare>
+        <predat>10</predat>
+        <deadline>4</deadline>
+        <feedback>23</feedback>
     </Nota>
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
     <Nota idNota="Dada1">
-        <nume>Truta Patricia-Georgiana</nume>
         <nr>1</nr>
         <valoare>10.0</valoare>
+        <predat>10</predat>
+        <deadline>4</deadline>
+        <feedback>23</feedback>
     </Nota>
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
     <Nota idNota="Dada1">
-        <nume>Truta Patricia-Georgiana</nume>
         <nr>1</nr>
         <valoare>10.0</valoare>
+        <predat>10</predat>
+        <deadline>4</deadline>
+        <feedback>23</feedback>
     </Nota>
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
     <Nota idNota="Dada1">
-        <nume>Truta Patricia-Georgiana</nume>
         <nr>1</nr>
         <valoare>10.0</valoare>
+        <predat>10</predat>
+        <deadline>4</deadline>
+        <feedback>23</feedback>
     </Nota>
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
     <Nota idNota="Dada1">
-        <nume>Truta Patricia-Georgiana</nume>
         <nr>1</nr>
         <valoare>10.0</valoare>
+        <predat>10</predat>
+        <deadline>4</deadline>
+        <feedback>23</feedback>
     </Nota>
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
     <Nota idNota="Dada1">
-        <nume>Truta Patricia-Georgiana</nume>
         <nr>1</nr>
         <valoare>10.0</valoare>
+        <predat>10</predat>
+        <deadline>4</deadline>
+        <feedback>23</feedback>
     </Nota>
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
     <Nota idNota="Dada1">
-        <nume>Truta Patricia-Georgiana</nume>
         <nr>1</nr>
         <valoare>10.0</valoare>
+        <predat>10</predat>
+        <deadline>4</deadline>
+        <feedback>23</feedback>
     </Nota>
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
     <Nota idNota="Dada1">
-        <nume>Truta Patricia-Georgiana</nume>
         <nr>1</nr>
         <valoare>10.0</valoare>
+        <predat>10</predat>
+        <deadline>4</deadline>
+        <feedback>23</feedback>
     </Nota>
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
     <Nota idNota="Dada1">
-        <nume>Truta Patricia-Georgiana</nume>
         <nr>1</nr>
         <valoare>10.0</valoare>
+        <predat>10</predat>
+        <deadline>4</deadline>
+        <feedback>23</feedback>
     </Nota>
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
     <Nota idNota="Dada1">
-        <nume>Truta Patricia-Georgiana</nume>
         <nr>1</nr>
         <valoare>10.0</valoare>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="Dada1">
-        <nume>Truta Patricia-Georgiana</nume>
-        <nr>1</nr>
-        <valoare>10.0</valoare>
+        <predat>10</predat>
+        <deadline>4</deadline>
+        <feedback>23</feedback>
     </Nota>
 </Note>

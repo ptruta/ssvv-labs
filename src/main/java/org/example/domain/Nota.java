@@ -8,7 +8,7 @@ public class Nota implements hasID<Map.Entry<String,Integer>> {
     private Teme tm;
     private float valoare;
     private int data;
-    public Nota(Map.Entry<String,Integer> id,Student s,Teme t, float val, int d){
+    public Nota(Map.Entry<String,Integer> id, Student s, Teme t, float val, int d){
         this.id=id;
         this.st=s;
         this.tm=t;

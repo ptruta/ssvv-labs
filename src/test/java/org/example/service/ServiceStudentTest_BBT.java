@@ -3,12 +3,15 @@ package org.example.service;
 import org.example.domain.Nota;
 import org.example.domain.Student;
 import org.example.domain.Teme;
+import org.example.repository.NoteRepo;
 import org.example.repository.StudentRepo;
 import org.example.validator.*;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.AbstractMap;
+import java.util.Map;
 import java.util.stream.StreamSupport;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -17,11 +20,14 @@ import static org.junit.Assert.assertThat;
 public class ServiceStudentTest_BBT {
 
     private ServiceStudent studentController;
+    private ServiceNote serviceNote;
 
     @Before
     public void setUp() {
         StudentRepo studentRepo = new StudentRepo(new StudentValidator(),"studenti.xml");
         studentController = new ServiceStudent(studentRepo);
+        NoteRepo noteRepo = new NoteRepo(new NotaValidator());
+        serviceNote = new ServiceNote(noteRepo);
     }
 
     //valid test for all
@@ -178,6 +184,22 @@ public class ServiceStudentTest_BBT {
     @Test(expected = ValidationException.class)
     public void addStudentWithEmptyProfNameTest() {
         studentController.add(new Student("11", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro", ""));
+    }
+
+    // TESTS FOR ADD GRADE
+
+    @Test
+    public void addValidGradeCheckReturnValueTest() {
+        serviceNote.add(new Nota(new AbstractMap.SimpleEntry<String, Integer>("Dada", 1),new Student("11", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"),
+                new Teme(1, "tema 4", 3, 4),10, 10),"23");
+        Assert.assertEquals(java.util.Optional.of(serviceNote.getSize()), java.util.Optional.of(1));
+
+    }
+
+    @Test(expected = ValidationException.class)
+    public void addGradeWithEmptyStudentIDTest() {
+        serviceNote.add(new Nota(new AbstractMap.SimpleEntry<String, Integer>("papa", 1),new Student("", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"),
+                new Teme(1, "tema 4", 3, 4),10, 25),"23");
     }
 
 }

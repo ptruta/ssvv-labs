@@ -55,7 +55,7 @@ public class ServiceTemeTest_WBT {
     }
 
     @Test(expected = ValidationException.class)
-    public void addAssignmentWithNullIDTest() {
+        public void addAssignmentWithNullIDTest() {
         serviceTeme.add(new Teme(null, "tema 5", 7, 8));
     }
 

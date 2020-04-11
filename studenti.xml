@@ -12,6 +12,12 @@
         <mail>tpie2451@scs.ubbcluj.ro</mail>
         <profesor>Vescan Andreea</profesor>
     </Student>
+    <Student idStudent="12">
+        <nume>Truta Patricia-Georgiana</nume>
+        <grupa>931</grupa>
+        <mail>tpie2451@scs.ubbcluj.ro</mail>
+        <profesor>Vescan Andreea</profesor>
+    </Student>
     <Student idStudent="2">
         <nume>Cardas Andra</nume>
         <grupa>931</grupa>
