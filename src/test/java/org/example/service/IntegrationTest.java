@@ -41,10 +41,11 @@ public class IntegrationTest {
 
     @Test
     public void bigBang() {
-        serviceNote.add(new Nota(new AbstractMap.SimpleEntry<String, Integer>("Dada", 1),new Student("11", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"),
-                new Teme(1, "tema 4", 3, 4),10, 10),"23");
         serviceStudent.add(new Student("11", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"));
         serviceTeme.add(new Teme(1, "tema5", 3, 4));
+        serviceNote.add(new Nota(new AbstractMap.SimpleEntry<String, Integer>("Dada", 1),new Student("11", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"),
+                new Teme(1, "tema 4", 3, 4),10, 10),"23");
+        Assert.assertEquals(java.util.Optional.of(serviceStudent.getSize()), java.util.Optional.of(5));
     }
 
     @Test
