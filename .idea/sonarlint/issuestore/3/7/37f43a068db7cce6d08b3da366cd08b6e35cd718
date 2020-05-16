@@ -1,0 +1,11 @@
+
+H
+java:S2755"-Disable XML external entity (XXE) processing.(ÇµÛıÿÿÿÿ
+N	java:S106}"9Replace this use of System.out or System.err by a logger.(ö¬
+T
+java:S4973p"9Use the "equals" method if value comparison was intended.(ƒ÷—çıÿÿÿÿ
+9
+java:S1148l"#Use a logger to log this exception.(Â“å´
+9
+java:S1148H"#Use a logger to log this exception.(Â“å´
+O	java:S106‚"9Replace this use of System.out or System.err by a logger.(êöÃ

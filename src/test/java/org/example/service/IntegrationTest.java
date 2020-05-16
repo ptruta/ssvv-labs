@@ -45,19 +45,19 @@ public class IntegrationTest {
         serviceTeme.add(new Teme(1, "tema5", 3, 4));
         serviceNote.add(new Nota(new AbstractMap.SimpleEntry<String, Integer>("Dada", 1),new Student("11", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"),
                 new Teme(1, "tema 4", 3, 4),10, 10),"23");
-        Assert.assertEquals(java.util.Optional.of(serviceStudent.getSize()), java.util.Optional.of(5));
+        Assert.assertEquals(java.util.Optional.of(serviceStudent.getSize()), java.util.Optional.of(6));
     }
 
     @Test
     public void addValidStudentCheckReturnValueTest() {
         serviceStudent.add(new Student("12", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"));
-        Assert.assertEquals(java.util.Optional.of(serviceStudent.getSize()), java.util.Optional.of(5));
+        Assert.assertEquals(java.util.Optional.of(serviceStudent.getSize()), java.util.Optional.of(6));
     }
 
     @Test
     public void addValidAssignmentCheckReturnValueTest() {
         serviceTeme.add(new Teme(1, "tema5", 3, 4));
-        Assert.assertEquals(java.util.Optional.of(serviceTeme.getSize()), java.util.Optional.of(2));
+        Assert.assertEquals(java.util.Optional.of(serviceTeme.getSize()), java.util.Optional.of(3));
     }
 
     @Test
@@ -66,4 +66,30 @@ public class IntegrationTest {
                 new Teme(1, "tema 4", 3, 4),10, 10),"23");
         Assert.assertEquals(java.util.Optional.of(serviceNote.getSize()), java.util.Optional.of(1));
     }
+
+    // TOP DOWN APPROACH
+
+    @Test
+    public void topDownAddStudentTest() {
+        serviceStudent.add(new Student("13", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"));
+        Assert.assertEquals(java.util.Optional.of(serviceStudent.getSize()), java.util.Optional.of(6));
+    }
+
+    @Test
+    public void topDownAddAssignmentTest() {
+        serviceStudent.add(new Student("13", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"));
+        serviceTeme.add(new Teme(3, "tema6", 6, 7));
+        Assert.assertEquals(java.util.Optional.of(serviceTeme.getSize()), java.util.Optional.of(3));
+    }
+
+    @Test
+    public void topDownAddGradeTest() {
+        serviceStudent.add(new Student("11", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"));
+        serviceTeme.add(new Teme(3, "tema6", 6, 7));
+        serviceNote.add(new Nota(new AbstractMap.SimpleEntry<String, Integer>("LalaLand", 7),
+                new Student("11", "Truta Patricia-Georgiana", 931, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"),
+                new Teme(3, "tema6", 6, 7),9, 6),"24");
+        Assert.assertEquals(java.util.Optional.of(serviceNote.getSize()), java.util.Optional.of(1));
+    }
+
 }

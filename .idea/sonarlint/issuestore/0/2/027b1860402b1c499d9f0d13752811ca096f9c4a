@@ -1,0 +1,5 @@
+
+c	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìşïæ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â–Ëä
+l	java:S116"WRename this field "sapt_primire" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ÅÆ
+c	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡õŠ

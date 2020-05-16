@@ -10,12 +10,32 @@
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
-    <Nota idNota="Dada1">
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-        <predat>10</predat>
-        <deadline>4</deadline>
-        <feedback>23</feedback>
+    <Nota idNota="LalaLand7">
+        <nr>3</nr>
+        <valoare>9.0</valoare>
+        <predat>6</predat>
+        <deadline>7</deadline>
+        <feedback>24</feedback>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="LalaLand7">
+        <nr>3</nr>
+        <valoare>9.0</valoare>
+        <predat>6</predat>
+        <deadline>7</deadline>
+        <feedback>24</feedback>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="LalaLand7">
+        <nr>3</nr>
+        <valoare>9.0</valoare>
+        <predat>6</predat>
+        <deadline>7</deadline>
+        <feedback>24</feedback>
     </Nota>
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -30,142 +50,12 @@
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
-    <Nota idNota="Dada1">
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-        <predat>10</predat>
-        <deadline>4</deadline>
-        <feedback>23</feedback>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="Dada1">
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-        <predat>10</predat>
-        <deadline>4</deadline>
-        <feedback>23</feedback>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="Dada1">
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-        <predat>10</predat>
-        <deadline>4</deadline>
-        <feedback>23</feedback>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="Dada1">
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-        <predat>10</predat>
-        <deadline>4</deadline>
-        <feedback>23</feedback>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="Dada1">
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-        <predat>10</predat>
-        <deadline>4</deadline>
-        <feedback>23</feedback>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="Dada1">
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-        <predat>10</predat>
-        <deadline>4</deadline>
-        <feedback>23</feedback>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="Dada1">
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-        <predat>10</predat>
-        <deadline>4</deadline>
-        <feedback>23</feedback>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="Dada1">
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-        <predat>10</predat>
-        <deadline>4</deadline>
-        <feedback>23</feedback>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="Dada1">
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-        <predat>10</predat>
-        <deadline>4</deadline>
-        <feedback>23</feedback>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="Dada1">
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-        <predat>10</predat>
-        <deadline>4</deadline>
-        <feedback>23</feedback>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="Dada1">
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-        <predat>10</predat>
-        <deadline>4</deadline>
-        <feedback>23</feedback>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="Dada1">
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-        <predat>10</predat>
-        <deadline>4</deadline>
-        <feedback>23</feedback>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="Dada1">
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-        <predat>10</predat>
-        <deadline>4</deadline>
-        <feedback>23</feedback>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="Dada1">
-        <nr>1</nr>
-        <valoare>10.0</valoare>
-        <predat>10</predat>
-        <deadline>4</deadline>
-        <feedback>23</feedback>
+    <Nota idNota="LalaLand7">
+        <nr>3</nr>
+        <valoare>9.0</valoare>
+        <predat>6</predat>
+        <deadline>7</deadline>
+        <feedback>24</feedback>
     </Nota>
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
