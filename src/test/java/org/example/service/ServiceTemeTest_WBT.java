@@ -51,7 +51,7 @@ public class ServiceTemeTest_WBT {
     @Test
     public void addValidAssignmentCheckReturnValueTest() {
         serviceTeme.add(new Teme(2, "tema 4", 3, 4));
-        Assert.assertEquals(java.util.Optional.of(serviceTeme.getSize()), java.util.Optional.of(2));
+        Assert.assertEquals(java.util.Optional.of(serviceTeme.getSize()), java.util.Optional.of(3));
     }
 
     @Test(expected = ValidationException.class)

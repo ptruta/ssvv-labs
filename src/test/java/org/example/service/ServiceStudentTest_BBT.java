@@ -118,14 +118,14 @@ public class ServiceStudentTest_BBT {
     @Test
     public void addStudentWithGroupNumberOnLowerLimitTest() {
         studentController.add(new Student("11", "Brad Pitt", 111, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"));
-        Assert.assertEquals(java.util.Optional.of(studentController.getSize()), java.util.Optional.of(5));
+        Assert.assertEquals(java.util.Optional.of(studentController.getSize()), java.util.Optional.of(6));
     }
 
     //12
     @Test
     public void addStudentWithGroupNumberOnHighestLimitTest() {
         studentController.add(new Student("11", "Dorel Mustan", 937, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"));
-        Assert.assertEquals(java.util.Optional.of(studentController.getSize()), java.util.Optional.of(5));
+        Assert.assertEquals(java.util.Optional.of(studentController.getSize()), java.util.Optional.of(6));
     }
 
     // Test cases for mail
@@ -148,7 +148,7 @@ public class ServiceStudentTest_BBT {
     @Test
     public void addValidStudentCheckReturnValueTest() {
         studentController.add(new Student("11", "Andrada Dayana", 936, "tpie2451@scs.ubbcluj.ro", "Vescan Andreea"));
-        Assert.assertEquals(java.util.Optional.of(studentController.getSize()), java.util.Optional.of(5));
+        Assert.assertEquals(java.util.Optional.of(studentController.getSize()), java.util.Optional.of(6));
     }
 
     //16
